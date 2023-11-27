@@ -1,5 +1,5 @@
 # <Website>
-![Alt text](Develop/assets/images/RMscreenshot.png "Full Page Screenshot")
+![Alt text](/assets/images/RMscreenshot.png "Full Page Screenshot")
 ## Description
 
 This website organizes information regarding Horiseon and the service.
