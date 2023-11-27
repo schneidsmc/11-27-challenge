@@ -6,7 +6,7 @@
 body {
     background-color: #d9dcd6;
 }
-/* Header */
+/* Nav Bar Left */
 .header {
     padding: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -20,6 +20,7 @@ body {
 .header h1 .seo {
     color: #d9dcd6;
 }
+/* Nav Bar Right */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -115,3 +116,58 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+
+/* Tablets */
+@media screen and (max-width: 992px) {
+    .header h1{
+        font-size: 38px;
+    }
+    .header div{
+        font-size: 15px;
+    }
+    .content h2{
+        font-size: 35px;
+    }
+    .content p{
+        font-size: 12px;
+    }
+    .benefits p{
+        font-size: 12px;
+    }
+}
+
+/* Large Smartphones */
+@media screen and (max-width: 768px) {
+    .header h1 {
+        font-size: 35px;
+    }
+    .header div{
+        font-size: 12px;
+    }
+    .content h2 {
+        font-size: 28px;
+    }
+    .content p{
+        font-size: 12px;
+    }
+    .content img{
+        max-height: 125px;
+        padding-top: 40px;
+    }
+    .benefits p{
+        font-size: 12px;
+    }
+    .content{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .benefits{
+        width: 100%;
+        margin-right: 0px;
+    }
+    .benefits img{
+        max-width: 100px;
+
+    }
+}
+  
